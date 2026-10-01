@@ -128,5 +128,45 @@ transition: .3s;
 .register-link p a:hover{
  text-decoration: underline;
 }
+@media (max-width: 600px) {
+
+    body {
+        min-height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .header-w {
+        gap: 8px;
+        font-size: 13px;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+
+    header h1 {
+        font-size: 24px;
+        margin: 10px;
+    }
+
+    .header-w a {
+        margin: 5px;
+    }
+
+    .header-w button {
+        width: 60px;
+        padding: 5px;
+        font-size: 11px;
+    }
+
+    .login {
+        width: 90%;
+        margin: 40px auto;
+        padding: 30px 20px;
+    }
+
+    .login h1 {
+        font-size: 25px;
+    }
+}
 
 
